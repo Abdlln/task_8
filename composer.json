@@ -1,0 +1,18 @@
+{
+    "name": "myvendor/practice_php8",
+    "autoload": {
+        "psr-4": {
+            "Myvendor\\PracticePhp8\\": "src/"
+        }
+    },
+    "require": {
+        "arhitector/yandex": "dev-master",
+        "php-http/message-factory": "^1.1",
+        "phpoffice/phpword": "^1.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
